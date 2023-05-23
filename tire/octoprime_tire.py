@@ -1,7 +1,7 @@
 from abc import ABC
 from car_components import Tire
 
-class CarriganTire(Tire, ABC):
+class OctoprimeTire(Tire):
     def __init__(self, tire_wear_arr) -> None:
         super().__init__(tire_wear_arr)
 

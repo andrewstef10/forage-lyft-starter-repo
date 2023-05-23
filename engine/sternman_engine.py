@@ -1,9 +1,7 @@
-from abc import ABC
-
 from car_components import Engine
 
 
-class SternmanEngine(Engine, ABC):
+class SternmanEngine(Engine):
     def __init__(self, warning_light_on: bool):
         super().__init__()
         self.warning_light_is_on = warning_light_on
